@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "❇️  ------- Format files"
+docker exec -it fast-api-playground-web-1 black fast_api_playground tests
